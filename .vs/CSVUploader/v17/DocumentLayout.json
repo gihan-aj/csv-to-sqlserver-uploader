@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gihan\\Documents\\CSVUploader\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEE13DB-6E28-4951-B719-91CB76AA3D63}|CSVUploader\\CSVUploader.csproj|c:\\users\\gihan\\documents\\csvuploader\\csvuploader\\datauploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEE13DB-6E28-4951-B719-91CB76AA3D63}|CSVUploader\\CSVUploader.csproj|solutionrelative:csvuploader\\datauploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEE13DB-6E28-4951-B719-91CB76AA3D63}|CSVUploader\\CSVUploader.csproj|c:\\users\\gihan\\documents\\csvuploader\\csvuploader\\csvdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEE13DB-6E28-4951-B719-91CB76AA3D63}|CSVUploader\\CSVUploader.csproj|solutionrelative:csvuploader\\csvdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEE13DB-6E28-4951-B719-91CB76AA3D63}|CSVUploader\\CSVUploader.csproj|c:\\users\\gihan\\documents\\csvuploader\\csvuploader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEE13DB-6E28-4951-B719-91CB76AA3D63}|CSVUploader\\CSVUploader.csproj|solutionrelative:csvuploader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BEE13DB-6E28-4951-B719-91CB76AA3D63}|CSVUploader\\CSVUploader.csproj|c:\\users\\gihan\\documents\\csvuploader\\csvuploader\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BEE13DB-6E28-4951-B719-91CB76AA3D63}|CSVUploader\\CSVUploader.csproj|solutionrelative:csvuploader\\csvreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataUploader.cs",
+              "DocumentMoniker": "C:\\Users\\Gihan\\Documents\\CSVUploader\\CSVUploader\\DataUploader.cs",
+              "RelativeDocumentMoniker": "CSVUploader\\DataUploader.cs",
+              "ToolTip": "C:\\Users\\Gihan\\Documents\\CSVUploader\\CSVUploader\\DataUploader.cs",
+              "RelativeToolTip": "CSVUploader\\DataUploader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:22:10.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CSVData.cs",
+              "DocumentMoniker": "C:\\Users\\Gihan\\Documents\\CSVUploader\\CSVUploader\\CSVData.cs",
+              "RelativeDocumentMoniker": "CSVUploader\\CSVData.cs",
+              "ToolTip": "C:\\Users\\Gihan\\Documents\\CSVUploader\\CSVUploader\\CSVData.cs",
+              "RelativeToolTip": "CSVUploader\\CSVData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T13:01:26.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CSVReader.cs",
+              "DocumentMoniker": "C:\\Users\\Gihan\\Documents\\CSVUploader\\CSVUploader\\CSVReader.cs",
+              "RelativeDocumentMoniker": "CSVUploader\\CSVReader.cs",
+              "ToolTip": "C:\\Users\\Gihan\\Documents\\CSVUploader\\CSVUploader\\CSVReader.cs",
+              "RelativeToolTip": "CSVUploader\\CSVReader.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:58:55.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gihan\\Documents\\CSVUploader\\CSVUploader\\Program.cs",
+              "RelativeDocumentMoniker": "CSVUploader\\Program.cs",
+              "ToolTip": "C:\\Users\\Gihan\\Documents\\CSVUploader\\CSVUploader\\Program.cs",
+              "RelativeToolTip": "CSVUploader\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBsAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T09:47:07.73Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

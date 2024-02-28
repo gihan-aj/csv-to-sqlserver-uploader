@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "PowerReadingsDBConnectionString": "Server=DESKTOP-3VINUMD; Database=PowerReadings; Trusted_Connection=True"
+  }
+}
