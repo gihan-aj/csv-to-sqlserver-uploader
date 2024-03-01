@@ -1,5 +1,6 @@
 ﻿using CSVUploader;
 using Microsoft.Extensions.Configuration;
+using LoggerLib;
 
 public class Program    
 {
@@ -12,6 +13,8 @@ public class Program
             .AddJsonFile("appsetting.json")
             .Build();
 
+        IFileLogger logger = new FileLogger();
+
         string? connectionString = configuration.GetConnectionString("PowerReadingsDBConnectionString");
 
         //var filePath = Path.GetFullPath((Path.Combine(appDirectory, "QI01.csv")));
@@ -23,14 +26,15 @@ public class Program
         {
             Console.WriteLine("Program started...");
 
-            var data =  new CSVReader(filePath).GetCSVData();
+            var data =  new CSVReader(filePath, logger).GetCSVData();
 
-            new DataUploader(connectionString, dataTable, data).UploadToSql();
+            new DataUploader(connectionString, dataTable, data, logger).UploadToSql();
 
 
         }
         catch (Exception ex)
         {
+            logger.LogError(ex.Message);
             Console.WriteLine($"Error: {ex.Message}");
         }
        

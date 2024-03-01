@@ -14,4 +14,10 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="LoggerLib">
+      <HintPath>LoggerLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

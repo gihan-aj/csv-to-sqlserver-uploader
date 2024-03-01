@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LoggerLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
@@ -10,21 +11,25 @@ namespace CSVUploader
     public class CSVReader
     {  
         private readonly string _filePath;
+        private readonly IFileLogger _logger;
 
-        public CSVReader( string filePath )
+        public CSVReader( string filePath, IFileLogger logger)
         {
             _filePath = filePath; 
+            _logger = logger;
         }
 
         public CSVData GetCSVData()
         {
             if (string.IsNullOrEmpty(_filePath))
             {
+                _logger.LogWarning("FIle path is nit set");
                 throw new ArgumentNullException("File path is required");
             }
 
             if(!File.Exists(_filePath))
             {
+                _logger.LogError("File not found");
                 throw new FileNotFoundException();
             }
 
@@ -49,6 +54,8 @@ namespace CSVUploader
                     csvData.Data = data;
 
                 }
+
+                _logger.LogInfo("File is read successfully.");
 
                 return csvData;
             }

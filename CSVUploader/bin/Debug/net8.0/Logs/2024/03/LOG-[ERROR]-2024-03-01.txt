@@ -1,0 +1,4 @@
+2024-03-01 08:56:46 -> [ERROR] : Violation of PRIMARY KEY constraint 'PK__PowerCon__E7F97EE604A61F40'. Cannot insert duplicate key in object 'dbo.PowerConsumption'. The duplicate key value is (Sep 26 2021 12:01AM).
+The statement has been terminated.
+2024-03-01 08:57:14 -> [ERROR] : Violation of PRIMARY KEY constraint 'PK__PowerCon__E7F97EE604A61F40'. Cannot insert duplicate key in object 'dbo.PowerConsumption'. The duplicate key value is (Sep 26 2021 12:01AM).
+The statement has been terminated.

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSVUploader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42e0ea3252dc63192b7800e4a452a1742c335b32")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSVUploader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSVUploader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

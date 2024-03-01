@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LoggerLib;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -13,12 +14,14 @@ namespace CSVUploader
         private readonly string _connectinString;
         private readonly string _dbTable;
         private readonly CSVData _data;
+        private readonly IFileLogger _logger;
 
-        public DataUploader(string connectinString, string dbTable, CSVData data)
+        public DataUploader(string connectinString, string dbTable, CSVData data, IFileLogger logger)
         {
             _connectinString = connectinString;
             _dbTable = dbTable;
             _data = data;
+            _logger = logger;
         }
 
         public void UploadToSql()
@@ -31,6 +34,7 @@ namespace CSVUploader
                 if(!TableExists(conn, _dbTable))
                 {
                     CreateTable(conn, _data.Headers, _dbTable);
+                    _logger.LogInfo("DB Table created successfully");
                 }
 
                 // Get table schema
@@ -56,6 +60,7 @@ namespace CSVUploader
                     }
 
                     bulkCopy.WriteToServer(dataTable);
+                    _logger.LogInfo("DB Table bulk copy successfull");
                 }
             }
         }
